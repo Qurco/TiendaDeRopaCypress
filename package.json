@@ -4,7 +4,9 @@
   "description": "\"Pruebas automatizadas sistema tienda de ropa\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test1": "cypress open",
+    "test2": "cypress run"
   },
   "keywords": [
     "qa",
@@ -16,5 +18,13 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^13.15.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qurco/TiendaDeRopaCypress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Qurco/TiendaDeRopaCypress/issues"
+  },
+  "homepage": "https://github.com/Qurco/TiendaDeRopaCypress#readme"
 }
